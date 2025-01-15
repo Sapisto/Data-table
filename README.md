@@ -1,7 +1,5 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
 ## Instructions
 
 ### 1. Clone the Repository
@@ -12,7 +10,7 @@ Start by cloning the repository to your local machine:
 git clone https://github.com/Sapisto/Data-table.git
 cd Data-table
 
-. Install Dependencies
+ Install Dependencies
 After cloning the repository, install all necessary dependencies by running the following command:
 
 ``bash
@@ -35,9 +33,10 @@ http://localhost:4002
 │   ├── hooks/
 │   ├── pages/
 │   ├── App.jsx
-│   └── index.js
-├── .eslintrc.js
-├── .prettierrc
+│   └── index.jsx
+├── .eslintrc.config.js
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
+├── tailwind.config.js
 └── README.md
