@@ -2,6 +2,19 @@
 
 ## Instructions
 
+## Mock Data Setup
+
+In the initial setup of the project, I used the following libraries to make API calls:
+
+- [Axios](https://axios-http.com/)
+- [SWR](https://swr.vercel.app/)
+- Custom `useRequest` hook
+- Custom `apiService` for handling requests
+
+The project was initially set up to make API calls to JSONPlaceholder, a free fake online REST API for testing and prototyping. However, for simplicity and testing purposes, the API calls were replaced with mock data.
+
+If you'd like to switch back to using jsonplaceholder for API calls, you can uncomment or modify the relevant code blocks.
+
 ### 1. Clone the Repository
 
 Start by cloning the repository to your local machine:
@@ -24,7 +37,6 @@ npm run dev
 http://localhost:4002
 
 // Project Structure
-
 ├── public/
 ├── src/
 │   ├── assets/
