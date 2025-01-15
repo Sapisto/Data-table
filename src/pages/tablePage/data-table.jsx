@@ -23,7 +23,7 @@ export function DataTable({ columns, data }) {
   const [sorting, setSorting] = useState([]);
   const [columnFilters, setColumnFilters] = useState([]);
   const [filter, setFilter] = useState("");
-  const [selectedColumn, setSelectedColumn] = useState(""); // Tracks which column is being filtered
+  const [selectedColumn, setSelectedColumn] = useState(""); 
   const [filterValue, setFilterValue] = useState("");
 
   const table = useReactTable({
@@ -48,7 +48,6 @@ export function DataTable({ columns, data }) {
       return;
     }
 
-    // Apply case-insensitive filter
     setColumnFilters([
       {
         id: selectedColumn,
